@@ -1,0 +1,21 @@
+.flex-container {
+    min-height: 400px;
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 600px;
+    font-family: Michroma;
+}
+
+h1 {
+    letter-spacing: 20px;
+    font-size: 50px;
+}
+
+ p {
+    flex-wrap: space-around;
+}
